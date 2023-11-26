@@ -6,7 +6,7 @@ const reciverRouter = require("./auth.route");
 const donorRouter = require("./donor.route");
  
 const connect = require("./config")
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT
 
 const app = express();
 app.use(express.json());
