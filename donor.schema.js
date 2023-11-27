@@ -16,8 +16,7 @@ const donorSchema = new mongoose.Schema({
     },
     mobile: {
         type: Number,
-        min: 10,
-        max: 13
+        
     },
     address: {
         type: String
